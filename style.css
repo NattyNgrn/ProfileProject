@@ -4,17 +4,26 @@ body {
 }
 
 img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+    position:relative;
+    float: right;
+    width: 600px;
+    height: 800px;
+
 }
 
 header {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 40%;
+    width: 30%;
     font-size: 40px;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+#abme{
+    text-align: left;
 }
 
