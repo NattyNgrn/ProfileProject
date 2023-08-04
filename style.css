@@ -1,0 +1,89 @@
+body {
+    background-color: rgb(0, 0, 59);
+    color: rgb(147, 122, 187);
+    font-family: monospace;
+}
+
+img {
+    position:relative;
+    float: right;
+    width: 600px;
+    height: 800px;
+}
+
+header {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    font-size: 80px;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+#abme{
+    text-align: left;
+}
+
+#techprojs {
+    text-align: left;
+}
+
+section {
+    padding: 30px;
+}
+
+#pastworks{
+    text-align: left;
+    margin-top: 20px;
+}
+
+#contact{
+    margin-top: 100px;
+    padding-left: 100px;
+}
+
+button{
+    font-size: 20px;
+    background-color: rgb(147, 122, 187);;
+    color: rgb(0, 0, 59);
+    padding: 10px;
+}
+
+label{
+    font-size: 30px;
+}
+
+input{
+    font-size: 30px;
+    size: 30px;
+    margin-bottom: 10px;
+}
+
+.socials{
+    float: right;
+    padding-right: 50px;
+}
+
+.form {
+    float: left;
+}
+
+p{
+    font-size: 20px;
+}
+
+@media(max-width: 820px){
+    body{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .socials{
+        float:none;
+    }
+}
