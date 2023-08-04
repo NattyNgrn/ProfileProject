@@ -82,4 +82,7 @@ p{
         align-items: center;
         flex-direction: column;
     }
+    .socials{
+        float:none;
+    }
 }
