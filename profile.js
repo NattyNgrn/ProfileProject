@@ -1,3 +1,4 @@
+console.log("urmom");
 let button1 = document.getElementById("btn1").addEventListener("click", gitlink);
 
 function gitlink(){
@@ -21,13 +22,6 @@ let button5 = document.getElementById("btn5").addEventListener("click", linkedin
 function linkedin(){
     window.open("https://www.linkedin.com/feed/");
 };
-
-let submit = document.getElementById("btn3").addEventListener("click", submit)
-
-function submit(){
-    let textbox = document.getElementById("email");
-    textbox.reset();
-}
 
 
 
